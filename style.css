@@ -5,6 +5,17 @@ html {
 /* background inspried by Remy */
 body {
     background-image: url(imgs/College.png);
+    background-size: 88px;
 }
 /* ends here */
 
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.nav-link {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+}
