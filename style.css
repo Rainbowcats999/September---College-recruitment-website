@@ -6,6 +6,10 @@ html {
 body {
     background-image: url(imgs/College.png);
     background-size: 88px;
+    animation-name: tiles;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 /* ends here */
 
@@ -27,3 +31,12 @@ nav {
     
 }
 
+@keyframes tiles {
+    from {
+        background-position: 0;
+
+    }
+    to {
+        background-position: 80px;
+    }
+}
