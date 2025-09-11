@@ -10,6 +10,8 @@ body {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    font-family: "podium-soft-variable", sans-serif;
+    font-variation-settings: "wdth" 100;
 }
 /* ends here */
 
