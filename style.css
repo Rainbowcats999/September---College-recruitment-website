@@ -55,6 +55,16 @@ nav {
     background-image: linear-gradient(red, rgba(255, 0, 0, 0.37),transparent);
     height: 200px !important;
     text-decoration: none !important; /* Removes default underline */
+    /* Video code
+    height: 100vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justift-content: space-around;
+    margin: auto;
+     */
+
 }
 
 .nav-link:hover {
