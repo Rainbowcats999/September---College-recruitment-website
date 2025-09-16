@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <title>SIT official site</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/png1yzy.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link" href="#general">General Info</a>
+              <a class="nav-link" href="#programs">Programs</a>
+              <a class="nav-link" href="#tests">SAT & ACT</a>
+              <div style="text-align: center;">
+                <img src="imgs/Stevens-Official-PMSColor-R.png" />
+              </div>
+              <a class="nav-link" href="#tuition">Tuition</a>
+              <a class="nav-link" href="#tour">Campus Tour</a>
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <section id="general" class="page-section">
+        <h1>Welcome to Stevens Institute of Technology</h1>
+        <p>Founded in 1870, Stevens is a top research university in Hoboken, NJ with a focus on technology and innovation.</p>
+      </section>
+
+      <section id="programs" class="page-section">
+        <h1>Programs & Majors</h1>
+        <ul>
+          <li>Engineering & Technology</li>
+          <li>Computer Science</li>
+          <li>Business & Management</li>
+          <li>Sciences & Mathematics</li>
+        </ul>
+      </section>
+
+      <section id="tests" class="page-section">
+        <h1>SAT & ACT</h1>
+        <p>Stevens is test-optional, but strong scores can strengthen your application.</p>
+        <p><b>Typical range:</b> SAT 1330–1480, ACT 30–34</p>
+      </section>
+
+      <section id="tuition" class="page-section">
+        <h1>Tuition & Financial Aid</h1>
+        <p><b>Tuition:</b> Around $60,000/year before aid.</p>
+        <p>Stevens offers generous merit scholarships and need-based aid.</p>
+      </section>
+
+      <section id="tour" class="page-section">
+        <h1>Campus Tour</h1>
+        <p>Visit our Hoboken campus overlooking the NYC skyline.</p>
+        <button class="btn btn-danger" onclick="alert('Tour registration coming soon!')">Register Now</button>
+      </section>
+
+      <section id="contact" class="page-section">
+        <h1>Contact Us</h1>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-danger">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
