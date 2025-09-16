@@ -22,8 +22,8 @@ img {
 }
 /*Remy has to yell at it for it to work*/
 .nav-link {
-    padding-left: 75px !important;
-    padding-right: 75px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
     padding-top: 40px !important;
     color:aliceblue;
     position: relative; /* Required for positioning the pseudo-element */
