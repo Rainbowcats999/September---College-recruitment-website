@@ -69,6 +69,7 @@ nav {
 
 .nav-link:hover {
     text-decoration: underline !important;
+    color:rgb(201, 50, 50);
 }
 
 @keyframes tiles {
