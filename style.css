@@ -41,6 +41,27 @@ img {
 }
 /*:))))))))))))))*/
 
+/*GPT assisted*/
+.nav-link.active {
+  color: rgb(255,255,255) !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section-padding {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.section-padding.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*ends here*/
+
+
 /*  
 .navbar-link::after {
   content: "";
