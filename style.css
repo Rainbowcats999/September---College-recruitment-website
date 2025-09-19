@@ -15,8 +15,16 @@ body {
     font-family: "podium-soft-variable", sans-serif;
     font-variation-settings: "wdth" 100;
     font-size: x-large;
+    color: rgb(184, 3, 3);
 }
 /* ends here */
+
+p {
+    font-family: "graduate", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(221, 65, 65);
+}
 
 img {
     height: 130px;
@@ -57,6 +65,7 @@ nav {
     background-image: linear-gradient(red, rgba(255, 0, 0, 0.37),transparent);
     height: 200px !important;
     text-decoration: none !important; /* Removes default underline */
+    
  
     /* Video code
     height: 100vh;
@@ -90,7 +99,6 @@ nav {
     width: 100%;
     display:block;
 }
-
 
 /* @media { 
 
