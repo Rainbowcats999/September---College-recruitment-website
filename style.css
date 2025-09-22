@@ -147,3 +147,18 @@ section h2 {
 .bg-white {
   background-color: #ffffff !important;
 }
+
+/* Bigger section spacing */
+.section-padding {
+  padding: 150px 0; /* super tall */
+}
+
+/* Optional: spacing for headings + text inside sections */
+.section-padding h2 {
+  margin-bottom: 2rem;
+}
+
+.section-padding p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
