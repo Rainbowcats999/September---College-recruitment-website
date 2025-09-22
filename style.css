@@ -121,6 +121,29 @@ nav {
     display:block;
 }
 
-/* @media { 
+/* Section spacing */
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 
+/* Section headings */
+section h2 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Student life images uniform */
+#student-life img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Better separation between sections */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+.bg-white {
+  background-color: #ffffff !important;
 }
