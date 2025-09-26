@@ -17,7 +17,7 @@ const sections = document.querySelectorAll("section");
     });
   });
 
-  const faders = document.querySelectorAll(".section-padding");
+   const faders = document.querySelectorAll(".section-padding");
   const appearOptions = { threshold: 0.2 };
   const appearOnScroll = new IntersectionObserver((entries, appearOnScroll) => {
     entries.forEach(entry => {
@@ -28,5 +28,3 @@ const sections = document.querySelectorAll("section");
   }, appearOptions);
 
   faders.forEach(fader => appearOnScroll.observe(fader));
-
-  
